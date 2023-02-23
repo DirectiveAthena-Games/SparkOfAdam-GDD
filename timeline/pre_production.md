@@ -17,6 +17,7 @@ kanban-plugin: basic
 ## done
 
 - [ ] Define setting within the Directive Athena Universe
+- [ ] define a game loop that feels like it could work (will need updating in the future whether it is playable or not)
 
 
 

@@ -1,7 +1,6 @@
 {
 	"nodes":[
 		{"type":"text","text":"Player does action","id":"87f2fde1ab4684e0","x":351,"y":280,"width":250,"height":60,"color":"1"},
-		{"type":"text","text":"End of player turn\n","id":"fbe54fc5cbb0df22","x":920,"y":290,"width":250,"height":50,"color":"1"},
 		{"type":"text","text":"Try connection to random IP address (has chance of failure)","id":"2158d9fa28e44685","x":909,"y":524,"width":250,"height":139},
 		{"type":"text","text":"Connect or disconnect a node","id":"474a4afd8b03e4d2","x":-216,"y":520,"width":250,"height":74},
 		{"type":"text","text":"setup a training node to create a software modifier","id":"47fa2a9380d97f33","x":71,"y":524,"width":250,"height":119},
@@ -17,9 +16,10 @@
 		{"type":"text","text":"Start of player turn","id":"3bd9538c36879450","x":351,"y":-2,"width":250,"height":50,"color":"1"},
 		{"type":"text","text":"Calculate resources for virusses or other systems","id":"c22edd2ae3b55796","x":920,"y":-360,"width":250,"height":120,"color":"1"},
 		{"type":"text","text":"Calculate spread of viruses across the network","id":"17fbcc7122cd7390","x":351,"y":-360,"width":250,"height":122,"color":"1"},
-		{"id":"ef48567f8e52bb4b","x":640,"y":780,"width":250,"height":138,"type":"text","text":"\"spawns\" a new system on the network and calucates all modifers"},
-		{"id":"68b1c75bc82db3f8","x":495,"y":1040,"width":250,"height":80,"type":"text","text":"chance of being \"infeced\" with a virus"},
-		{"id":"0952388af25c3196","x":784,"y":1040,"width":250,"height":187,"type":"text","text":"chance of being \"equiped\" with an active anti virus which begins attacking you on the next turn"}
+		{"type":"text","text":"\"spawns\" a new system on the network and calucates all modifers","id":"ef48567f8e52bb4b","x":640,"y":780,"width":250,"height":138},
+		{"type":"text","text":"chance of being \"infeced\" with a virus","id":"68b1c75bc82db3f8","x":495,"y":1040,"width":250,"height":80},
+		{"type":"text","text":"chance of being \"equiped\" with an active anti virus which begins attacking you on the next turn","id":"0952388af25c3196","x":784,"y":1040,"width":250,"height":187},
+		{"type":"text","text":"End of player turn\n","id":"fbe54fc5cbb0df22","x":920,"y":280,"width":250,"height":50,"color":"1"}
 	],
 	"edges":[
 		{"id":"ee1d6d933e0104d0","fromNode":"87f2fde1ab4684e0","fromSide":"bottom","toNode":"47fa2a9380d97f33","toSide":"top"},
