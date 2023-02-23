@@ -1,2 +1,5 @@
 # Obsidian vault files
 .obsidian/
+
+# Blender files
+*.blend*
