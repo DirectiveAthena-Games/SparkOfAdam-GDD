@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"group","label":"System A","id":"fdef455750ba71d7","x":-911,"y":-630,"width":1823,"height":1260},
+		{"type":"text","text":"Node: **Expansion Card**: *Worker* \nPower : -2 🔋\nFLOPS :  0⚙️\n\nnote: Writes programs to be used on other machines, needs trainable data to produce files. Dependant on the level of AI, it will produce more or less bugs","id":"46cbd161c05fac2a","x":-238,"y":-570,"width":320,"height":340},
+		{"type":"text","text":"Node: **Expansion Card**: *Network* \nPower : -5 🔋\nFLOPS/sec :  -5 ⚙️","id":"a13088ca690c2d22","x":332,"y":-56,"width":500,"height":152},
+		{"type":"text","text":"Modifier: **Firewall**\nNeeded FLOPS to break: 100 ⚙️\n\nNeeded decryption algorithm: V1","id":"0144121c970d836e","x":332,"y":96,"width":250,"height":218,"color":"1"},
+		{"type":"text","text":"Node: **CPU**\nPower : -10 🔋\nFLOPS/sec :  +10 ⚙️\n\n \nTotal FLOPS/sec capacity: 100⚙️","id":"b4c8265462f4ffb6","x":-328,"y":-70,"width":500,"height":180,"color":"5"},
+		{"type":"text","text":"Modifier: **MEM**\nPower : -1🔋\nFLOPS multiplier : 0.1","id":"9d470ef20b04219b","x":-328,"y":113,"width":250,"height":113,"color":"6"},
+		{"type":"text","text":"Modifier: **OS**\nPower : -2🔋","id":"c78e9b2c9d63f673","x":-78,"y":113,"width":250,"height":113,"color":"6"},
+		{"type":"text","text":"Node: **Power**\nPower : +20 🔋","id":"61223b5bc97a3e7b","x":-189,"y":450,"width":223,"height":85,"color":"3"},
+		{"type":"text","text":"Modifier: **Network Port**\nFLOPS/sec :  -5 ⚙️\nAdds the ability to add a network connection to another system\n","id":"318faec6dd7c8fd1","x":582,"y":96,"width":250,"height":218,"color":"6"},
+		{"type":"text","text":"Node: **Expansion Card**: *Data* \nPower : -2 🔋\nFLOPS :  0⚙️\n\nFLOPS needed to decrypt: 10⚙️ / sec\nTotal Trainable Data to retrieve: 1024KB","id":"1f83c55e6872e813","x":-840,"y":-110,"width":320,"height":261},
+		{"type":"text","text":"Modifier: **Encrypted**\nNeeded FLOPS to break: 100 ⚙️\n\nNeeded decryption algorithm: V1","id":"0ca5ea21045040fd","x":-840,"y":151,"width":320,"height":218,"color":"1"}
+	],
+	"edges":[
+		{"id":"f5e49fe4033545ce","fromNode":"b4c8265462f4ffb6","fromSide":"top","toNode":"46cbd161c05fac2a","toSide":"bottom"},
+		{"id":"db2bbd47e85d4c9b","fromNode":"61223b5bc97a3e7b","fromSide":"right","toNode":"a13088ca690c2d22","toSide":"left","toEnd":"none","color":"3"},
+		{"id":"aacb40cdc2581eed","fromNode":"b4c8265462f4ffb6","fromSide":"right","toNode":"a13088ca690c2d22","toSide":"left"},
+		{"id":"799cce352b3b2fc8","fromNode":"b4c8265462f4ffb6","fromSide":"left","toNode":"1f83c55e6872e813","toSide":"right"},
+		{"id":"f351dda88f52d142","fromNode":"61223b5bc97a3e7b","fromSide":"left","toNode":"1f83c55e6872e813","toSide":"right","toEnd":"none","color":"3"},
+		{"id":"3d6771c7646c63ba","fromNode":"61223b5bc97a3e7b","fromSide":"top","toNode":"b4c8265462f4ffb6","toSide":"bottom","toEnd":"none","color":"3"}
+	]
+}
