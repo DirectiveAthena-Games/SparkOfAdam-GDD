@@ -42,7 +42,7 @@ The following are a list of actions the player can do:
 
 ### Turn Loop
 Bellow is a very bare bones idea of how a turn would be played by the player and the machine. 
-![[game_loop.canvas]]
+![[turn_loop.canvas]]
 
 ---
 © 2023, Andreas Sas, Belgium, All rights reserved

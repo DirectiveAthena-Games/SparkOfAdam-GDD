@@ -49,7 +49,7 @@
 		{"id":"5ad680fa60b3fc91","fromNode":"57ce92983d24b08d","fromSide":"top","toNode":"99f264daf18a95c8","toSide":"bottom","toEnd":"none","color":"3"},
 		{"id":"943d0f5704478b06","fromNode":"8f6f9ed161382dd0","fromSide":"left","toNode":"99f264daf18a95c8","toSide":"right"},
 		{"id":"2be2837ef79bb93b","fromNode":"57ce92983d24b08d","fromSide":"right","toNode":"8f6f9ed161382dd0","toSide":"bottom","toEnd":"none","color":"3"},
-		{"id":"074d0f49b5bf12ff","fromNode":"2031d1829bf8d4fd","fromSide":"right","toNode":"99f264daf18a95c8","toSide":"left","color":"2","label":"Inaccessible Network Cable"},
+		{"id":"074d0f49b5bf12ff","fromNode":"2031d1829bf8d4fd","fromSide":"right","toNode":"99f264daf18a95c8","toSide":"left","color":"2","label":"Inaccessible permanent Network Cable"},
 		{"id":"83911b909a036e9b","fromNode":"a794eec36ddb5bcf","fromSide":"top","toNode":"5d237b4ff8025c15","toSide":"bottom","toEnd":"none","color":"3"},
 		{"id":"aa6b16f0bba16f17","fromNode":"a794eec36ddb5bcf","fromSide":"top","toNode":"e3dfdcf886e063a5","toSide":"bottom","toEnd":"none","color":"3"},
 		{"id":"2d15b37d7a60a5f9","fromNode":"5d237b4ff8025c15","fromSide":"right","toNode":"8e025c6c32668a35","toSide":"left"},

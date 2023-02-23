@@ -7,6 +7,7 @@ kanban-plugin: basic
 ## todos
 
 - [ ] Find Art Style for the game
+- [ ] link Unreal to Jetbrains CLion instead of Visual Studio
 
 
 ## working on
